@@ -1,31 +1,32 @@
-Paradigm Shift by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Erik Jacome Portfolio Website
+This is a personal portfolio website showcasing my work as a full-stack software engineer. It highlights projects that I've worked on, gives an overview of my experience, and helps connect me with new opportunities. The goal is to have a clean, visually engaging, and responsive site that reflects my skills and creativity.
 
+**Link to project:** [https://erikjacome-portfolio.com](https://erikjacome-portfolio.com/)
 
-Say hello to Paradigm Shift, my first addition to HTML5 UP in more than a year (!!!).
-Took things in a slightly different direction with this one, partly to mess with CSS
-grid (which this one relies on pretty heavily) but mostly to get back to making weirder
-and more experimental designs/layouts. Anyway, hope you dig it, and thanks for the
-continued support despite the lack of updates :)
+![Portfolio Screenshot](http://placecorgi.com/1200/650)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## How It's Made:
 
-(* = not included)
+**Tech used:** HTML, CSS, JavaScript
 
-AJ
-aj@lkn.io | @ajlkn
+The portfolio was crafted with a focus on clean design, intuitive user experience, and responsiveness across different devices. I used HTML for structure, CSS for styling, and JavaScript to add interactivity. Some of the core features include:
+- A video background on the homepage to add a creative flair.
+- Smooth scrolling and navigation features, thanks to JavaScript.
+- Showcase of my projects
 
+For the layout, I built on a template to make use of semantic HTML tags to keep the code organized and maintainable. The CSS involves Flexbox for the gallery section and CSS Grid for overall alignment, helping maintain the responsiveness across all screen sizes. The JavaScript handles interactions like the play button on the homepage video and project hover effects to enhance the user experience.
 
-Credits:
+## Optimizations
 
-	Demo Images:
-		Unsplash (unsplash.com)
+During development, I encountered issues with autoplaying videos on mobile browsers. To ensure compatibility, I tested across multiple devices (mobile and desktop) across all major browsers and apps. Additionally:
+- Added fallback video formats (`.webm` and `.mp4`) for better compatibility across different browsers.
+- Improved the CSS hover effects for project images to ensure that the text overlay remains sharp and readable, even when the background blurs.
+- Reduced the initial load time by optimizing image sizes, using `srcset` for responsive images.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Future optimizations include implementing lazy-loading for images and improving the website's performance by minimizing CSS and JavaScript files.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## Lessons Learned:
+
+One of the key lessons from building this project was the importance of cross-browser compatibility, especially on mobile. Making sure the video works seamlessly on iOS Safari led me to learn more about media formats and user interaction triggers.
+
+I also learned the importance of performance optimization—managing media files and considering ways to improve load speed and responsiveness. This process gave me deeper insight into efficient front-end workflows and better user experience design. The exercise of adding a JavaScript-triggered play button was particularly rewarding, as it highlighted the different approaches required to handle both desktop and mobile environments.
