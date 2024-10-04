@@ -1,7 +1,7 @@
 # Erik Jacome Portfolio Website
 This is a personal portfolio website showcasing my work as a full-stack software engineer. It highlights projects that I've worked on, gives an overview of my experience, and helps connect me with new opportunities. The goal is to have a clean, visually engaging, and responsive site that reflects my skills and creativity.
 
-**Link to project:** [https://erikjacome-portfolio.com](https://erikjacome-portfolio.com/)
+**Link to project:** [https://erikjacome.netlify.app](https://erikjacome.netlify.app/)
 
 ![Portfolio Screenshot](https://i.imgur.com/gxKta8w.png)
 
