@@ -3,7 +3,7 @@ This is a personal portfolio website showcasing my work as a full-stack software
 
 **Link to project:** [https://erikjacome-portfolio.com](https://erikjacome-portfolio.com/)
 
-![Portfolio Screenshot](http://placecorgi.com/1200/650)
+![Portfolio Screenshot](https://i.imgur.com/lh8dKIf.gif)
 
 ## How It's Made:
 
